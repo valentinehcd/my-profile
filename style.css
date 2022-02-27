@@ -1,0 +1,184 @@
+/* Colors and fonts*/ 
+
+
+body {
+	background: #CFDAC8;
+	font-family: 'Inria Serif', serif;
+	font-size: 15px;
+	color: rgb(60, 60, 60);
+}
+
+h1, h2 {
+	font-family: 'Noto Serif', serif;
+}
+
+h1, h3 {
+	color: #7C9473;
+}
+
+
+h1 {
+	font-size: 37px;
+}
+
+h2 {
+	color: rgb(50, 50, 50);  
+}
+
+h3 {
+	font font-weight: bolder;
+}
+
+a{
+	text-decoration: none;
+	font-family: calibri;
+	color: #f8da6c;;
+	transition: color 0.3s ease;
+	font-size: 40px;
+
+}
+
+a:hover {
+	color: #e99361;
+}
+
+mark {
+	background-color: #f5e9bd;
+}
+
+
+/* Custom design */
+
+.container {
+	width: 700px;
+    margin: 40px auto;
+}
+
+.header-container {
+	background: #ffffff;
+    padding: 50px;
+    margin: 20px;
+    box-shadow: 0px 10px 30px rgb(22 83 53 / 10%);
+    border-radius: 15px;
+}
+
+.other-container {
+	background: #ffffff;
+    padding: 40px;
+    margin: 40px;
+    box-shadow: 0px 10px 30px rgb(22 83 53 / 10%);
+    border-radius: 15px;
+}
+
+.btn-color {
+    background-color: #f8da6c;;
+    color: white; 
+    padding: 10px 7px;
+    border-radius: 7%;
+    font-size: 20px;   
+}
+
+.btn-color:hover {
+	background-color: #e99361;
+	color: white;
+}
+
+.img-circle {
+	border-radius: 50%;
+	float: left;
+	margin-right:100px;
+}
+
+.img-bordered {
+	border: 3px solid beige;
+}
+
+
+h1 {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+h2 {
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+#patting {
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+h3 {
+	padding-bottom: 5px;
+}
+
+#image-radius {
+	border-radius: 3%;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+/* responsive design*/
+
+@media (max-width: 960px) {
+	.header-container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.header-container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.header-container {
+		width: 300px;
+	}
+}
+
+@media (max-width: 960px) {
+	.other-container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.other-container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.other-container {
+		width: 300px;
+	}
+}
+
+@media (max-width: 960px) {
+	#header {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	#header {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	#header {
+		width: 300px;
+	}
+}
+
